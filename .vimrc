@@ -107,7 +107,8 @@ set fileencoding=utf-8
 nnoremap [unite] <Nop>
 nmap <Space>u [unite]
 
-    let g:unite_source_history_yank_enable =1 "history/yankの有効化
+let g:unite_source_history_yank_enable =1 "history/yankの有効化
+let g:unite_cursor_line_highlight = 'TabLineSel' "highlight color
 
 " unite mappings
 nnoremap [unite]f :<C-u>Unite file file/new<CR>
