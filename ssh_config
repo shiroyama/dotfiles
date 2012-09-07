@@ -1,7 +1,7 @@
 Host github
     Hostname     github.com
+    Port         22
     User         git
-    PreferredAuthentications publickey
     IdentityFile ~/ssh_keys/shiroyama.us/shiroyama.us.key
 
 Host shiroyama
