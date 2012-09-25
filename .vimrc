@@ -1,4 +1,4 @@
-source /etc/vimrc
+" source /etc/vimrc
 
 syntax on
 set number
@@ -166,6 +166,7 @@ NeoBundle 'nakatakeshi/jump2pm.vim.git'
 " vim-scripts 上のリポジトリから取得する場合
 " NeoBundle 'スクリプト名'
 NeoBundle 'surround.vim'
+NeoBundle 'sudo.vim'
 
 " それ以外のgitリポジトリから取得する場合
 " NeoBundle 'git://URI'
