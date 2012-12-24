@@ -9,3 +9,9 @@ Host shiroyama
     Port         22
     User         shiroyama
     IdentityFile ~/ssh_keys/shiroyama.us/shiroyama.us.key
+
+Host shiroyama_git
+    HostName     shiroyama.us
+    Port         22
+    User         git
+    IdentityFile ~/ssh_keys/shiroyama.us/shiroyama.us.key
