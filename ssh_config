@@ -1,3 +1,7 @@
+Host *
+    ForwardAgent yes
+    ForwardX11 yes
+
 Host github
     Hostname     github.com
     Port         22
@@ -10,8 +14,9 @@ Host shiroyama
     User         shiroyama
     IdentityFile ~/ssh_keys/shiroyama.us/shiroyama.us.key
 
-Host shiroyama_git
-    HostName     shiroyama.us
-    Port         22
-    User         git
-    IdentityFile ~/ssh_keys/shiroyama.us/shiroyama.us.key
+### SSH Proxy Example
+#Host hostname_here
+#    HostName host_fqdn_here
+#    Port     port_here
+#    User     username_here
+#    ProxyCommand ssh remote_host_here nc -w 6000 %h %p

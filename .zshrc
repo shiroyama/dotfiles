@@ -79,6 +79,9 @@ bindkey "^[n" history-beginning-search-forward-end
 bindkey "\\ep" history-beginning-search-backward-end
 bindkey "\\en" history-beginning-search-forward-end
 
+bindkey "^R" history-incremental-search-backward
+bindkey "^T" history-incremental-search-forward
+
 
 ## Command history configuration
 #
