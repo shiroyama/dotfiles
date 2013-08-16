@@ -224,6 +224,32 @@ kterm*|xterm*)
 esac
 
 
+# for ssh-agent with screen/tmux
+#
+ssh_agent_init() {
+    AGENT="$HOME/tmp/ssh-agent-$USER"
+
+    if [ -S "$SSH_AUTH_SOCK" ]; then
+        case $SSH_AUTH_SOCK in
+            /tmp/*/agent.[0-9]*)
+            ln -snf "$SSH_AUTH_SOCK" $AGENT && export SSH_AUTH_SOCK=$AGENT
+    esac
+    elif [ -S $AGENT ]; then
+         export SSH_AUTH_SOCK=$AGENT
+    else
+         echo "no ssh-agent"
+    fi
+}
+
+ssh() {
+    ssh_agent_init
+
+    /usr/bin/ssh "$@"
+}
+
+ssh_agent_init
+
+
 ## load user .zshrc configuration file
 #
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
