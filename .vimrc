@@ -129,6 +129,8 @@ map _ <Plug>(operator-replace)
 " alignta
 vnoremap <silent> => :Align @1 =><CR>
 vnoremap <silent> = :Align @1 =<CR>
+vnoremap <silent> ? :Align @1 ?<CR>
+vnoremap <silent> : :Align @1 :<CR>
 vnoremap <silent> == =
 
 " jump2pm
