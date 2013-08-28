@@ -131,8 +131,6 @@ vnoremap <silent> => :Align @1 =><CR>
 vnoremap <silent> = :Align @1 =<CR>
 vnoremap <silent> ? :Align @1 ?<CR>
 vnoremap <silent> : :Align @1 :<CR>
-vnoremap <silent> == =
-vnoremap <silent> :: :
 
 " jump2pm
 noremap fg :call Jump2pm('vne')<ENTER>
