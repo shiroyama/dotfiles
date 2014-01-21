@@ -163,6 +163,7 @@ NeoBundle 'h1mesuke/vim-alignta.git'
 NeoBundle 'h1mesuke/textobj-wiw.git'
 NeoBundle 'vimtaku/vim-textobj-sigil'
 NeoBundle 'nakatakeshi/jump2pm.vim.git'
+NeoBundle 'thinca/vim-quickrun'
 
 " vim-scripts 上のリポジトリから取得する場合
 " NeoBundle 'スクリプト名'
@@ -204,3 +205,6 @@ aug END
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " set history must come after set no compatible statement
 set history=1000
+
+" open window right
+set splitright
