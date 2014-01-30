@@ -208,3 +208,6 @@ set history=1000
 
 " open window right
 set splitright
+
+" enable backspace when insert mode
+set backspace=indent,eol,start
