@@ -211,3 +211,12 @@ set splitright
 
 " enable backspace when insert mode
 set backspace=indent,eol,start
+
+" enable console.log in quickrun
+" prerequisite : node.js => brew install node
+
+let g:quickrun_config = {}
+let g:quickrun_config['javascript'] = {
+    \ 'command'  : 'node',
+    \ 'tempfile' : '%{tempname()}.js'
+    \ }
