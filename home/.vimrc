@@ -165,6 +165,7 @@ NeoBundle 'h1mesuke/textobj-wiw.git'
 NeoBundle 'vimtaku/vim-textobj-sigil'
 NeoBundle 'nakatakeshi/jump2pm.vim.git'
 NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'tpope/vim-repeat'
 
 " vim-scripts 上のリポジトリから取得する場合
 " NeoBundle 'スクリプト名'
