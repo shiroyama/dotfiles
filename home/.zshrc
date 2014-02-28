@@ -161,6 +161,18 @@ alias df="df -h"
 alias su="su -l"
 alias ssh='ssh -o ServerAliveInterval=60'
 
+# rbenv & bundle
+alias re="rbenv exec"
+alias be="bundle exec"
+alias rebe="rbenv exec bundle exec"
+
+# git
+alias gco="git checkout"
+alias gst="git status"
+alias gci="git commit"
+alias gdi="git diff"
+alias gbr="git branch"
+
 case "${OSTYPE}" in
 darwin*)
     alias updateports="sudo port selfupdate; sudo port outdated"
