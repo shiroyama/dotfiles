@@ -172,6 +172,7 @@ alias gst="git status"
 alias gci="git commit"
 alias gdi="git diff"
 alias gbr="git branch"
+alias gad="git add"
 
 case "${OSTYPE}" in
 darwin*)

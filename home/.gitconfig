@@ -6,3 +6,10 @@
     pager = lv -c
 [color]
     ui = true
+[alias]
+    co = checkout
+    st = status
+    ci = commit
+    di = diff
+    br = branch
+    ad = add
