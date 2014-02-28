@@ -170,7 +170,7 @@ alias rebe="rbenv exec bundle exec"
 alias gco="git checkout"
 alias gst="git status"
 alias gci="git commit"
-alias gdi="git diff"
+alias gdf="git diff"
 alias gbr="git branch"
 alias gad="git add"
 
