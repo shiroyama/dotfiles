@@ -13,3 +13,4 @@
     df = diff
     br = branch
     ad = add
+    lo = log
