@@ -6,6 +6,8 @@ set highlight=on
 set scrolloff=10
 set hlsearch
 
+set noswapfile
+
 " swp file
 set directory=/tmp
 set directory+=~/.vim/tmp
