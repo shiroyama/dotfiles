@@ -168,11 +168,15 @@ NeoBundle 'vimtaku/vim-textobj-sigil'
 NeoBundle 'nakatakeshi/jump2pm.vim.git'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'tpope/vim-repeat'
+NeoBundle 'mattn/vim-textobj-url'
+NeoBundle 'vimtaku/vim-operator-mdurl'
+NeoBundle 'kannokanno/previm'
 
 " vim-scripts 上のリポジトリから取得する場合
 " NeoBundle 'スクリプト名'
 NeoBundle 'surround.vim'
 NeoBundle 'sudo.vim'
+NeoBundle 'open-browser.vim'
 
 " それ以外のgitリポジトリから取得する場合
 " NeoBundle 'git://URI'
@@ -224,3 +228,12 @@ let g:quickrun_config['javascript'] = {
     \ 'command'  : 'node',
     \ 'tempfile' : '%{tempname()}.js'
     \ }
+
+" open-browser
+let g:netrw_nogx = 1 " disable netrw's gx mapping.
+nmap gx <Plug>(openbrowser-smart-search)
+vmap gx <Plug>(openbrowser-smart-search)
+
+" markdown url
+map L <Plug>(operator-mdurl)
+map M <Plug>(operator-mdurlp)
