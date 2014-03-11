@@ -171,6 +171,7 @@ NeoBundle 'tpope/vim-repeat'
 NeoBundle 'mattn/vim-textobj-url'
 NeoBundle 'vimtaku/vim-operator-mdurl'
 NeoBundle 'kannokanno/previm'
+NeoBundle 'Shougo/neomru.vim'
 
 " vim-scripts 上のリポジトリから取得する場合
 " NeoBundle 'スクリプト名'
