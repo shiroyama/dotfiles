@@ -237,3 +237,10 @@ vmap gx <Plug>(openbrowser-smart-search)
 " markdown url
 map L <Plug>(operator-mdurl)
 map M <Plug>(operator-mdurlp)
+
+" indent 2 when ruby
+augroup WriteRuby
+    autocmd!
+    au Filetype ruby setlocal tabstop=2
+    au Filetype ruby setlocal shiftwidth=2
+augroup END
