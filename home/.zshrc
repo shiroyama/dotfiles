@@ -174,6 +174,7 @@ alias gdf="git diff"
 alias gbr="git branch"
 alias gad="git add"
 alias glo="git log"
+alias gps="git push"
 
 case "${OSTYPE}" in
 darwin*)
