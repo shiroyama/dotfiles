@@ -172,6 +172,7 @@ NeoBundle 'mattn/vim-textobj-url'
 NeoBundle 'vimtaku/vim-operator-mdurl'
 NeoBundle 'kannokanno/previm'
 NeoBundle 'Shougo/neomru.vim'
+NeoBundle 'tomtom/tcomment_vim'
 
 " vim-scripts 上のリポジトリから取得する場合
 " NeoBundle 'スクリプト名'
@@ -245,3 +246,9 @@ augroup WriteRuby
     au Filetype ruby setlocal tabstop=2
     au Filetype ruby setlocal shiftwidth=2
 augroup END
+
+" tcomment: go...toggle, gO...force comment out
+if neobundle#tap('tcomment_vim') " {{{
+  let g:tcommentMapLeaderOp1='go'
+  let g:tcommentMapLeaderOp2='gO'
+end "}}}
