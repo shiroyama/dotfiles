@@ -149,7 +149,9 @@ filetype off
 if has('vim_starting')
   set runtimepath+=~/.vim/neobundle.vim.git
 
-  call neobundle#rc(expand('~/.bundle'))
+  call neobundle#begin(expand('~/.vim/bundle/'))
+  NeoBundleFetch 'Shougo/neobundle.vim'
+  call neobundle#end()
 endif
 
 " GitHubから取得する場合
