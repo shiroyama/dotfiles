@@ -157,7 +157,6 @@ endif
 " GitHubから取得する場合
 " NeoBundle 'ユーザ名/リポジトリ名'
 NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/vimproc'
 NeoBundle 'hotchpotch/perldoc-vim'
 NeoBundle 'thinca/vim-ref'
 NeoBundle 'thinca/vim-textobj-between.git'
@@ -175,6 +174,16 @@ NeoBundle 'vimtaku/vim-operator-mdurl'
 NeoBundle 'kannokanno/previm'
 NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'tomtom/tcomment_vim'
+
+NeoBundle 'Shougo/vimproc.vim', {
+\ 'build' : {
+\     'windows' : 'tools\\update-dll-mingw',
+\     'cygwin' : 'make -f make_cygwin.mak',
+\     'mac' : 'make -f make_mac.mak',
+\     'linux' : 'make',
+\     'unix' : 'gmake',
+\    },
+\ }
 
 " vim-scripts 上のリポジトリから取得する場合
 " NeoBundle 'スクリプト名'
