@@ -15,3 +15,7 @@
     ad = add
     lo = log
     ps = push
+
+[remote "pr"]
+    url = git@github.com:manabo-inc/mana.bo_android.git
+    fetch = +refs/pull/*:refs/remotes/pr/*

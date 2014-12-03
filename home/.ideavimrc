@@ -1,3 +1,6 @@
+" Line number
+set number
+
 " Esc
 inoremap <C-j> <Esc>
 vnoremap <C-j> <Esc>
