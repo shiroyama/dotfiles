@@ -124,6 +124,7 @@ nnoremap [unite]r :<C-u>UniteResume<CR>
 nnoremap [unite]bd :<C-u>UniteWithBufferDir file file/new<CR>
 nnoremap [unite]cd :<C-u>UniteWithCurrentDir file file/new<CR>
 nnoremap <expr> [unite]% ':<C-u>Unite file file/new -input=' . expand('%:p') . '<CR>'
+nnoremap [unite]gg :<C-u>Unite grep/git:.<CR>
 
 " for operator replace
 map _ <Plug>(operator-replace)
@@ -184,6 +185,14 @@ NeoBundle 'Shougo/vimproc.vim', {
 \     'unix' : 'gmake',
 \    },
 \ }
+
+" git grep in unite
+NeoBundle 'lambdalisue/unite-grep-vcs'
+" 遅滞
+NeoBundleLazy 'lambdalisue/unite-grep-vcs', {
+    \ 'autoload': {
+    \    'unite_sources': ['grep/git', 'grep/hg'],
+    \}}
 
 " vim-scripts 上のリポジトリから取得する場合
 " NeoBundle 'スクリプト名'
