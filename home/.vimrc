@@ -193,6 +193,8 @@ NeoBundleLazy 'lambdalisue/unite-grep-vcs', {
     \ 'autoload': {
     \    'unite_sources': ['grep/git', 'grep/hg'],
     \}}
+NeoBundle 'vim-scripts/paredit.vim'
+
 
 " vim-scripts 上のリポジトリから取得する場合
 " NeoBundle 'スクリプト名'
