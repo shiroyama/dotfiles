@@ -1,0 +1,19 @@
+" Line number
+set number
+
+" Esc
+inoremap <C-j> <Esc>
+vnoremap <C-j> <Esc>
+
+" backspace
+noremap  
+noremap!  
+noremap <BS> 
+noremap! <BS> 
+
+" search from current word
+nnoremap * *N
+nnoremap # #N
+
+" save
+nnoremap ; :w<CR>
