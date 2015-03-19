@@ -189,10 +189,10 @@ NeoBundle 'Shougo/vimproc.vim', {
 " git grep in unite
 NeoBundle 'lambdalisue/unite-grep-vcs'
 " 遅滞
-NeoBundleLazy 'lambdalisue/unite-grep-vcs', {
-    \ 'autoload': {
-    \    'unite_sources': ['grep/git', 'grep/hg'],
-    \}}
+" NeoBundleLazy 'lambdalisue/unite-grep-vcs', {
+"     \ 'autoload': {
+"     \    'unite_sources': ['grep/git', 'grep/hg'],
+"     \}}
 NeoBundle 'vim-scripts/paredit.vim'
 
 
