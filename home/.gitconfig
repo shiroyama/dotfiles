@@ -1,6 +1,6 @@
 [user]
     name = Fumihiko Shiroyama
-    email = f.shiroyama@mana.bo
+    email = fu.shiroyama@gmail.com
 [core]
     editor = vim -c \"set fenc=utf-8\"
     pager = lv -c
