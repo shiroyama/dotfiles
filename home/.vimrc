@@ -195,6 +195,11 @@ NeoBundle 'lambdalisue/unite-grep-vcs'
 "     \}}
 NeoBundle 'vim-scripts/paredit.vim'
 
+" matchit
+NeoBundle 'vim-scripts/ruby-matchit.vim'
+if !exists('loaded_matchit')
+    runtime macros/matchit.vim
+endif
 
 " vim-scripts 上のリポジトリから取得する場合
 " NeoBundle 'スクリプト名'
