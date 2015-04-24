@@ -17,3 +17,6 @@ nnoremap # #N
 
 " save
 nnoremap ; :w<CR>
+
+" Operator Replace
+nnoremap _iw "_diwPa<ESC>
