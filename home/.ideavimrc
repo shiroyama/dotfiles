@@ -19,4 +19,4 @@ nnoremap # #N
 nnoremap ; :w<CR>
 
 " Operator Replace
-nnoremap _iw "_diwPa<ESC>
+nnoremap _iw qc"_diwPa<ESC>q
