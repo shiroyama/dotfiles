@@ -202,6 +202,10 @@ call neobundle#begin(expand('~/.vim/bundle/'))
       runtime macros/matchit.vim
   endif
 
+  " rubocop
+  NeoBundle 'ngmy/vim-rubocop'
+  let g:vimrubocop_config = '~/.rubocop.yml'
+
   " vim-scripts 上のリポジトリから取得する場合
   " NeoBundle 'スクリプト名'
   NeoBundle 'surround.vim'
