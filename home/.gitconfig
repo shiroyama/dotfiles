@@ -17,5 +17,5 @@
     ps = push
 
 [remote "pr"]
-    url = git@github.com:manabo-inc/mana.bo_android.git
+    url = git@github.com:Nikkei/seamless-paper-viewer-android.git
     fetch = +refs/pull/*:refs/remotes/pr/*

@@ -175,6 +175,7 @@ alias gbr="git branch"
 alias gad="git add"
 alias glo="git log"
 alias gps="git push"
+alias ggrep="git grep -A 10 -B 10"
 
 case "${OSTYPE}" in
 darwin*)
