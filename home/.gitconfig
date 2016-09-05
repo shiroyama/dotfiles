@@ -19,3 +19,5 @@
 [remote "pr"]
     url = git@github.com:Nikkei/seamless-paper-viewer-android.git
     fetch = +refs/pull/*:refs/remotes/pr/*
+[diff]
+	compactionHeuristic = true
