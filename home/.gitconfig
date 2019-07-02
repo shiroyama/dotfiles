@@ -21,3 +21,7 @@
     fetch = +refs/pull/*:refs/remotes/pr/*
 [diff]
 	compactionHeuristic = true
+
+# [credential]
+# 	helper = !aws codecommit credential-helper $@
+# 	UseHttpPath = true
