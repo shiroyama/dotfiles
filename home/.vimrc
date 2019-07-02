@@ -282,6 +282,6 @@ augroup END
 
 " tcomment: go...toggle, gO...force comment out
 if neobundle#tap('tcomment_vim') " {{{
-  let g:tcommentMapLeaderOp1='go'
-  let g:tcommentMapLeaderOp2='gO'
+  let g:tcomment_opleader1='go'
+  let g:tcomment_opleader2='gO'
 end "}}}
