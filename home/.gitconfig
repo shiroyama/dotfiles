@@ -1,6 +1,6 @@
 [user]
     name = Fumihiko Shiroyama
-	email = shiroyaf@amazon.com
+    email = shiroyaf@amazon.com
 [core]
     editor = vim -c \"set fenc=utf-8\"
     pager = lv -c
@@ -16,12 +16,5 @@
     lo = log
     ps = push
 
-[remote "pr"]
-    url = git@github.com:Nikkei/seamless-paper-viewer-android.git
-    fetch = +refs/pull/*:refs/remotes/pr/*
 [diff]
-	compactionHeuristic = true
-
-# [credential]
-# 	helper = !aws codecommit credential-helper $@
-# 	UseHttpPath = true
+    compactionHeuristic = true
