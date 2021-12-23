@@ -285,3 +285,7 @@ if neobundle#tap('tcomment_vim') " {{{
   let g:tcomment_opleader1='go'
   let g:tcomment_opleader2='gO'
 end "}}}
+
+" not add the last \n
+set binary
+set noeol
