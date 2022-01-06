@@ -266,6 +266,7 @@ function ssh() {
 ssh_agent_init
 
 
-## load user .zshrc configuration file
+## load user specific & environment specific .zshrc configuration file
 #
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
