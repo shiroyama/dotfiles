@@ -18,3 +18,24 @@
 
 [diff]
     compactionHeuristic = true
+
+[url "ssh://shiroyaf@usw2-acos2014-gerrit-mirror.labcollab.net:9418/"]
+    insteadOf = git://gerrit6.labcollab.net/
+    insteadOf = https://gerrit6.labcollab.net/gerrit/
+    insteadOf = http://gerrit6.labcollab.net/gerrit/
+    insteadOf = ssh://gerrit6.labcollab.net:9418/
+    insteadOf = ssh://gerrit6.labcollab.net/
+    insteadOf = ssh://shiroyaf@gerrit6.labcollab.net:9418/
+
+[url "ssh://shiroyaf@gerrit6.labcollab.net:9418/"]
+    pushInsteadOf = git://usw2-acos2014-gerrit-mirror.labcollab.net/
+    pushInsteadOf = ssh://usw2-acos2014-gerrit-mirror.labcollab.net:9418/
+    pushInsteadOf = ssh://shiroyaf@usw2-acos2014-gerrit-mirror.labcollab.net:9418/
+    pushInsteadOf = git://gerrit6.labcollab.net/
+    pushInsteadOf = http://gerrit6.labcollab.net/gerrit/
+    pushInsteadOf = https://gerrit6.labcollab.net/gerrit/
+    pushInsteadOf = ssh://gerrit6.labcollab.net:9418/
+    pushInsteadOf = ssh://gerrit6.labcollab.net/
+    pushInsteadOf = ssh://shiroyaf@gerrit6.labcollab.net:9418/
+[commit]
+	template = ~/.commit-msg
