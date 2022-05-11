@@ -265,6 +265,10 @@ function ssh() {
 
 ssh_agent_init
 
+# checksum of a directory
+function dirsum() {
+    find $1 -type f -print0 | xargs -0 shasum | awk '{print $1}' | sort | shasum
+}
 
 ## load user specific & environment specific .zshrc configuration file
 #
