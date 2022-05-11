@@ -289,7 +289,3 @@ end "}}}
 " not add the last \n
 set binary
 set noeol
-
-" Git commit
-set textwidth=72
-set colorcolumn=72

@@ -274,4 +274,3 @@ function dirsum() {
 #
 [ -f ~/.zshrc.mine ] && source ~/.zshrc.mine
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
-export JAVA_TOOLS_OPTIONS="-Dlog4j2.formatMsgNoLookups=true"
