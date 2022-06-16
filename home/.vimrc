@@ -18,13 +18,6 @@ set backupdir=/tmp
 set backupdir+=~/.vim/tmp
 set backupdir+=.
 
-" indent
-set autoindent
-set tabstop=4
-set expandtab
-set shiftwidth=4
-set shiftround
-
 " for white-space detection
 set list
 set listchars=tab:>-,trail:-,nbsp:-,extends:>,precedes:<,
@@ -289,3 +282,10 @@ end "}}}
 " not add the last \n
 set binary
 set noeol
+
+" indent
+set autoindent
+set tabstop=4
+set expandtab
+set shiftwidth=4
+set shiftround
