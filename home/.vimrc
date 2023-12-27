@@ -129,12 +129,6 @@ vnoremap <silent> == =
 vnoremap <silent> ?? :Align @1 ?<CR>
 vnoremap <silent> :: :Align @1 :<CR>
 
-" jump2pm
-noremap fg :call Jump2pm('vne')<ENTER>
-noremap ff :call Jump2pm('e')<ENTER>
-noremap fd :call Jump2pm('sp')<ENTER>
-noremap ft :call Jump2pm('tabe')<ENTER>
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ NeoBundle
 set nocompatible
@@ -161,7 +155,6 @@ call neobundle#begin(expand('~/.vim/bundle/'))
   NeoBundle 'h1mesuke/vim-alignta.git'
   NeoBundle 'h1mesuke/textobj-wiw.git'
   NeoBundle 'vimtaku/vim-textobj-sigil'
-  NeoBundle 'nakatakeshi/jump2pm.vim.git'
   NeoBundle 'thinca/vim-quickrun'
   NeoBundle 'tpope/vim-repeat'
   NeoBundle 'mattn/vim-textobj-url'
