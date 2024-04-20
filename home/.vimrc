@@ -282,3 +282,6 @@ set tabstop=4
 set expandtab
 set shiftwidth=4
 set shiftround
+
+" Prevent 'redrawtime' exceeded, syntax highlighting disabled from happening
+set re=0
