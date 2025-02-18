@@ -285,3 +285,6 @@ set shiftround
 
 " Prevent 'redrawtime' exceeded, syntax highlighting disabled from happening
 set re=0
+
+" Delete trailing white spaces and tabs when saving
+autocmd BufWritePre * %s/\s\+$//
