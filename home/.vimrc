@@ -287,4 +287,9 @@ set shiftround
 set re=0
 
 " Delete trailing white spaces and tabs when saving
-autocmd BufWritePre * %s/\s\+$//
+autocmd BufWritePre * call <SID>StripTrailingWhitespace()
+function! s:StripTrailingWhitespace()
+    if !empty(filter(getbufline('%', 1, '$'), 'v:val =~# ''\s\+$'''))
+        %s/\s\+$//e
+    endif
+endfunction
